@@ -18,8 +18,8 @@ st.title("EV vs Gas Cost Analysis")
 # Input Section
 st.subheader("Enter Your Details")
 
-home_address = st.text_input("Home Address", placeholder="e.g., 6805 Wood Hollow Dr, Austin, TX 78731")
-work_address = st.text_input("Work Address", placeholder="e.g., 2601 N Lamar Blvd, Austin, TX 78705")
+home_address = st.text_input("Home Address", placeholder="e.g., Street Address, City, State_Initials PinCode")
+work_address = st.text_input("Work Address", placeholder="e.g., Street Address, City, State_Initials PinCode")
 
 # Days selection with placeholder
 days_options = ["Select days per week"] + [str(i) for i in range(1, 8)]
